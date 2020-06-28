@@ -19,7 +19,3 @@ def reverse_array(array)
   array.reverse
 end
 
-12, 4, 35
-
-4, 12, 35
-35, 4, 12
