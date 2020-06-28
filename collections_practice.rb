@@ -1,11 +1,11 @@
-def sort_array_asc(array_asc)
+def sort_array_asc(array)
   array.sort
 end
 
-def sort_array_desc(array_desc)
+def sort_array_desc(array)
   array.sort{|a, b| b <=> a}
 end
 
-def sort_array_char_count(array_char)
+def sort_array_char_count(array)
   array.sort{|a, b| a.length <=> b.length}
 end
