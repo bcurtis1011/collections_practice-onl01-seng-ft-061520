@@ -23,14 +23,3 @@ def kesha_maker(array)
   new_array = []
   array.each {|a| puts a[2] = "$"}
 end
-
-# array = []
-
-# def my_each(array)
-#   i = 0
-#   while i < array.length
-#     yield array[i]
-#       i = i + 1
-#   end  
-#   array
-# end
