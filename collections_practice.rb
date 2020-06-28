@@ -16,6 +16,7 @@ end
 
 def reverse_array(array)
   array.sort {|a,b| a <=> b }
+  array.reverse
 end
 
 12, 4, 35
